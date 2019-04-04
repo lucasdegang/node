@@ -11,8 +11,17 @@ let mapFiltroAnoValor = json => json.ano >= 2017 && json.valor > 30000 //? `${js
 let filterAno = json => json.ano >= 2015 
 let filterValor = json => json.valor >= 30000
 
+let filterSort = json => json.modelo
+
+
+
 // map = carros[original] > carros[copia]
 console.log(carros.map(jsonParaObjeto).map(mapFiltroAnoValor))
 
 // filter
 console.log(carros.map(jsonParaObjeto).filter(filterAno).filter(filterValor))
+
+// sort
+console.log(
+    carros.map(jsonParaObjeto).map(filterSort).sort()
+)
