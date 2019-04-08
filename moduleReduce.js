@@ -18,14 +18,5 @@ const maiorNumero = (maiorNumeroX, numeroAtual) => {
     }
 }
 
-const somenteMaiorQue10 = num => num > 10
-
-const multiplicaPor2 = num => num * 2
-
 console.log(numeros.reduce(menorNumero))
-
 console.log(numeros.reduce(maiorNumero))
-
-console.log(numeros.filter(somenteMaiorQue10))
-
-console.log(numeros.map(multiplicaPor2))
