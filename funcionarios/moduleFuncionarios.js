@@ -14,7 +14,6 @@ let maiorSalario = (pessoaX, pessoaAtual) => {
 axios.get(url).then(response => {
     const funcionarios = response.data
     console.log(funcionarios.filter(genero).filter(nacionalidade).reduce(menorSalario))
-    console.log(funcionarios.filter(genero).filter(nacionalidade).reduce(maiorSalario))
 })
 
 
