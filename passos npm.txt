@@ -1,20 +1,23 @@
 pasta principal.
 terminal > npm init -y // cria o arquivo package.json
-terminal > npm i  express ou npm i  express@4.16.2 -E //para especificar a versão
+terminal > npm i  express ou npm i  express@4.16.2 -E //para especificar a versao
 
 terminal > npm i --save-dev nodemon // nodemon quando salvar o servidor automaticamente se reinicia. Somente em ambiente de desenvolvimento.
-terminal > npm i --save body-parser // consumir informações do body
+terminal > npm i --save body-parser // consumir informacoes do body
 terminal > npm i node-schedule // temporizador
 
 arquivo package.json > incluir em "scripts" campo start: nodemon,
-arquivo package.json > alterar conteudo do campo "main" para o arquivo com o serviço levantado padrao é index.js
+arquivo package.json > alterar conteudo do campo "main" para o arquivo com o servico levantado padrao eh index.js
+
+=== Comandos para executar ===
+terminal > npm i // instalar as dependencias
 
 terminal > npm start // chama o script start em package.json, executa o nodemon executa o main
+===
 
 
-terminal > npm i // instalar as dependencias
  
 terminal > npm i --save axios
-terminal > rs // restarta a aplicação
+terminal > rs // restarta a aplicacao
 
 terminal > cls // limpa log terminal
