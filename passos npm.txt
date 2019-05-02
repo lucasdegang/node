@@ -11,7 +11,7 @@ arquivo package.json > incluir em "scripts" campo start: nodemon,
 arquivo package.json > alterar conteudo do campo "main" para o arquivo com o servico levantado padrao eh index.js
 
 === Comandos para executar ===
-terminal > npm i // instalar as dependencias
+terminal > npm i // instalar as dependencias, cria package-lock json
 
 terminal > npm start // chama o script start em package.json, executa o nodemon executa o main
 ===
