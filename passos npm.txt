@@ -5,6 +5,7 @@ terminal > npm i  express ou npm i  express@4.16.2 -E //para especificar a versa
 terminal > npm i --save-dev nodemon // nodemon quando salvar o servidor automaticamente se reinicia. Somente em ambiente de desenvolvimento.
 terminal > npm i --save body-parser // consumir informacoes do body
 terminal > npm i node-schedule // temporizador
+terminal > npm i -g htt-server // global
 
 arquivo package.json > incluir em "scripts" campo start: nodemon,
 arquivo package.json > alterar conteudo do campo "main" para o arquivo com o servico levantado padrao eh index.js
